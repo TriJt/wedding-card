@@ -1,0 +1,29 @@
+.container-circle {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.container-circle .image-circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.container-circle .image-circle:hover {
+  opacity: 0.8;
+}
+
+.container-circle h4 {
+  font-family: var(--font-header);
+  font-weight: 300;
+  padding: 30px;
+  font-size: 30px;
+}
+.container-circle p {
+  font-weight: 300;
+  font-size: 20px;
+}

@@ -1,0 +1,30 @@
+.container-list {
+  width: auto;
+  display: flex;
+}
+.container-list img {
+  width: calc(100% / 4);
+  height: 300px;
+  object-fit: cover;
+  padding: 10px;
+}
+.content-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+}
+.content-list h3 {
+  text-transform: uppercase;
+  font-family: var(--font-main);
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: var(--color-header);
+}
+
+.content-list p {
+  font-family: var(--font-main);
+}

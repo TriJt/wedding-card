@@ -1,0 +1,37 @@
+.container-navbar{ 
+    height: auto;
+    width: auto;
+
+}
+.logo{ 
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--background-header);
+    font-family: var(--font-header);
+    font-size: var(--size-subling);
+    color: var(--color-header);
+}
+.navBar{ 
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+}
+li { 
+    list-style-type: none;
+}
+.link{
+    color: var(--color-header); 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--font-header);
+    font-weight: 500;   
+}
+@media only screen and (max-width: 600px) {   
+    .link{ 
+        font-size: 11px;
+    }
+}

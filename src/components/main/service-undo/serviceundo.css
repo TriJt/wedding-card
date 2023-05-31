@@ -1,0 +1,71 @@
+.container-service-undo {
+  display: flex;
+  padding: 40px 150px;
+}
+.container-image-undo {
+  position: relative;
+  margin: 10px;
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container-service-undo {
+    height: 500px;
+  }
+  .div-content-undo,
+  .div-image-undo {
+    gap: 20px;
+    align-items: center;
+  }
+  .div-content-undo {
+    width: 40%;
+    padding: 70px 0px;
+  }
+  .div-image-undo {
+    width: 60%;
+  }
+  .after-back-undo {
+    background-color: var(--background-image-after);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    z-index: 1;
+  }
+  .before-back-undo {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+    width: 350px;
+    height: 350px !important;
+  }
+  .before-back-undo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .container-service-undo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .after-back-undo {
+    background-color: var(--color-header);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 1;
+  }
+  .before-back-undo {
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    width: 300px;
+    height: 300px !important;
+  }
+}

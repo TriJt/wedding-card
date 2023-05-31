@@ -1,0 +1,72 @@
+.container-service {
+  display: flex;
+  padding: 40px 150px;
+}
+.container-image {
+  position: relative;
+  margin: 10px;
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container-service {
+    height: 500px;
+  }
+
+  .div-content,
+  .div-image {
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+  }
+  .div-content {
+    width: 40%;
+    padding: 70px 0px;
+  }
+  .div-image {
+    width: 60%;
+  }
+
+  .div-image .container-image .after-back {
+    background-color: var(--background-image-after);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    z-index: 1;
+  }
+  .div-image .container-image .before-back {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+    width: 350px;
+    height: 350px !important;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .container-service {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .after-back {
+    background-color: var(--color-header);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 1;
+  }
+  .before-back {
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    width: 300px;
+    height: 300px !important;
+  }
+  .each-slide-effect > div {
+    height: 300px !important;
+  }
+}

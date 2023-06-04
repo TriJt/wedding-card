@@ -20,7 +20,6 @@ const GridImage = () => {
   ];
 
   const item = images.map((image, index) => {
-    console.log(index % 2);
     return (
       <>
         <div

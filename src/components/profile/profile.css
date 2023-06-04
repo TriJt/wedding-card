@@ -1,0 +1,55 @@
+.profile-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.left-profile,
+.right-profile {
+  width: 50%;
+  height: auto;
+}
+
+.left-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background-color: var(--background-header);
+}
+
+.header-profile {
+  font-size: var(--size-subling);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  color: var(--color-sub);
+  border-bottom: 2px solid var(--color-sub);
+}
+.name-profile {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.right-profile img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-container {
+  width: auto;
+  padding: 80px 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container .image-profile {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}

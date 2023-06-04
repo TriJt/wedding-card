@@ -1,6 +1,6 @@
 :root {
   --font-header: "Parisienne", cursive;
-  --font-main: "Libre Franklin", sans-serif;
+  --font-main: "Roboto", sans-serif;
   --background-header: #f9f8f6;
   --background-main: #ffffff;
   --background-image-after: #fff8d6;
@@ -11,4 +11,8 @@
   --size-header: 13px;
   --size-big-header: 55px;
   --size-subling: 30px;
+}
+
+.body {
+  font-family: var(--font-main);
 }

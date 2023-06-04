@@ -13,16 +13,15 @@ import "./home.css";
 export default function Home() {
   const imgHusband =
     "https://i.pinimg.com/474x/15/18/55/151855a0c8cf69187b2f1f8b30b1b593.jpg";
-  const nameHusband = "Nguyen Cong Thanh";
+  const nameHusband = "Nguyễn Công Thành";
   const descriptionHusband = "14/09/1998";
 
   const imgWife =
     "https://i.pinimg.com/474x/15/18/55/151855a0c8cf69187b2f1f8b30b1b593.jpg";
-  const nameWife = "Nguyen Thi Nhu Huynh";
+  const nameWife = "Nguyễn Thị Như Huỳnh";
   const descriptionWife = "14/09/1998";
 
   const contentMainFirst = "Our Story";
-  const contentMainSecond = "OUR STORY STARTED IN COLLEGE...";
 
   return (
     <div>
@@ -50,10 +49,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
-        <MainPicture content={contentMainSecond} />
-      </div>
-
       <div style={{ display: "block" }}>
         <Service />
       </div>

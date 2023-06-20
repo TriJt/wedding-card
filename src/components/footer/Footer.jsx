@@ -60,9 +60,6 @@ const Footer = () => {
       <div className="columns-footer">
         <div className="header-footer">Thời gian</div>
         <div className="div-content-about">
-          <ContentAbout header={"Đám hỏi"} content={"14/09/2000"} />
-        </div>
-        <div className="div-content-about">
           <ContentAbout header={"Đám cưới"} content={"08/07/2000"} />
         </div>
         <div className="div-content-about">

@@ -21,6 +21,7 @@ export default function Home() {
   const nameWife = "Trịnh Thị Tuyết Lập";
   const descriptionWife = "Trưởng nữ";
 
+  
 
 
 
@@ -29,7 +30,7 @@ export default function Home() {
       <div className="header-container" >
       <NavBar/>
       </div>
-      <div style={{marginTop: '50px'}}>
+      <div className="fade-in" style={{marginTop: '50px'}}>
       <MainPicture  />
       </div>
       <div className="container-image-circle">

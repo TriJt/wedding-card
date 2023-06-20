@@ -26,5 +26,6 @@
 }
 
 .content-list p {
+  font-size: 20px;
   font-family: var(--font-main);
 }

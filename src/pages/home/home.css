@@ -33,3 +33,12 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.header-container{ 
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+ 
+}

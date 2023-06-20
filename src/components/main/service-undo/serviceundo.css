@@ -10,14 +10,64 @@
   .container-service-undo {
     height: 500px;
   }
+
   .div-content-undo,
   .div-image-undo {
     gap: 20px;
     align-items: center;
   }
-  .div-content-undo {
+  .div-content-undo{
     width: 40%;
+    font-family: var(--font-main);
+  }
+  .div-content-top{ 
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: 30px;
+    color: var(--color-header);
+    text-transform: uppercase;
+  }
+
+  .div-content-middle {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 70px 0px;
+    font-weight: 700;
+    font-family: var(--font-main);
+  }
+
+  .first , .second , .thirst {
+    width: calc(100%/3);
+  }
+  .second{ 
+    color: var(--color-header);
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .first { 
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .div-content-bottom{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
   }
   .div-image-undo {
     width: 60%;

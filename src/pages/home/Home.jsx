@@ -12,21 +12,26 @@ import "./home.css";
 
 export default function Home() {
   const imgHusband =
-    "https://i.pinimg.com/474x/15/18/55/151855a0c8cf69187b2f1f8b30b1b593.jpg";
-  const nameHusband = "Nguyễn Công Thành";
-  const descriptionHusband = "14/09/1998";
+    "https://res.cloudinary.com/johnle/image/upload/v1687240613/Wedding%20Lap/qfhglcemvlmby81x5xl1.jpg";
+  const nameHusband = "Phạm Hoàng Anh";
+  const descriptionHusband = "Thứ nam";
 
   const imgWife =
-    "https://i.pinimg.com/474x/15/18/55/151855a0c8cf69187b2f1f8b30b1b593.jpg";
-  const nameWife = "Nguyễn Thị Như Huỳnh";
-  const descriptionWife = "14/09/1998";
+    "https://res.cloudinary.com/johnle/image/upload/v1687240610/Wedding%20Lap/v9vftma6osbscemt5edf.jpg";
+  const nameWife = "Trịnh Thị Tuyết Lập";
+  const descriptionWife = "Trưởng nữ";
 
-  const contentMainFirst = "Our Story";
+
+
 
   return (
     <div>
-      <NavBar />
-      <MainPicture content={contentMainFirst} />
+      <div className="header-container" >
+      <NavBar/>
+      </div>
+      <div style={{marginTop: '50px'}}>
+      <MainPicture  />
+      </div>
       <div className="container-image-circle">
         <div className="header-circle">
           <h1> ONCE UPON A TIME</h1>
@@ -50,14 +55,12 @@ export default function Home() {
         </div>
       </div>
       <div style={{ display: "block" }}>
-        <Service />
+        <ServiceRedo  />
       </div>
       <div style={{ display: "block" }}>
         <ServiceUno />
       </div>
-      <div style={{ display: "block" }}>
-        <ServiceRedo />
-      </div>
+      
       <div>
         <ListImage />
       </div>

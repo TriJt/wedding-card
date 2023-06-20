@@ -3,21 +3,30 @@ import "./serviceRedo.css";
 import Content from "../content/Content";
 
 export default function ServiceRedo() {
-  const header = "S";
-  const title = "ervice";
-  const para =
-    "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.";
+
+  const images = "https://res.cloudinary.com/johnle/image/upload/v1687240612/Wedding%20Lap/vhqj2sbgkcg7o6fr0t3k.jpg"
   return (
     <div className="container-service">
       <div className="div-content">
-        <Content header={header} title={title} para={para} />
+        <div>
+        <p className="content-log" > Trân trọng kính mời <span className="big-content">Quý gia đình</span> <br /> đến dự tiệc rượu chung vui
+          cùng gia đình <br /> chúng tôi tại:  </p>
+        </div>
+
+        <div className="content-down">
+          <div className="down-first"> TƯ GIA</div>
+          <div className="down-second"> 16, KP kiên tân, <br />
+            Kiên lương, <br />
+            Kiên Giang
+          </div>
+        </div>
       </div>
       <div className="div-image">
         <div className="container-image">
           <div className="after-back"></div>
           <div className="before-back">
             <img
-              src="https://i.pinimg.com/474x/09/be/f3/09bef33c2d4413ede5ac65246e3f3625.jpg"
+              src={images}
               alt=""
             />
           </div>

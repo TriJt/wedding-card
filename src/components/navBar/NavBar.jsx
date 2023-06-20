@@ -10,26 +10,12 @@ export default function NavBar() {
         <div className="d-flex col-12 justify-content-center">
           <li className="px-2">
             <Link to={`/`} className="link ">
-              {" "}
-              Trang chủ{" "}
-            </Link>{" "}
-          </li>
-          <li className="px-2">
-            <Link to={`/man`} className="link">
-              {" "}
-              Chú rể{" "}
-            </Link>
-          </li>
-          <li className="px-2">
-            <Link to={`/women`} className="link">
-              {" "}
-              Cô dâu{" "}
+              Home
             </Link>
           </li>
           <li className="px-2">
             <Link to={`/gallery`} className="link">
-              {" "}
-              Hình ảnh{" "}
+              Gallenry
             </Link>
           </li>
         </div>

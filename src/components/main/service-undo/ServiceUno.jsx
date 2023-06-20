@@ -1,12 +1,7 @@
 import React from "react";
 import "./serviceundo.css";
-import Content from "../content/Content";
 
 export default function ServiceUno() {
-  const header = "S";
-  const title = "ervice";
-  const para =
-    "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.";
 
   return (
     <div className="container-service-undo">
@@ -15,15 +10,33 @@ export default function ServiceUno() {
           <div className="after-back-undo"></div>
           <div className="before-back-undo">
             <img
-              src="https://i.pinimg.com/474x/09/be/f3/09bef33c2d4413ede5ac65246e3f3625.jpg"
+              src="https://res.cloudinary.com/johnle/image/upload/v1687240610/Wedding%20Lap/x6lypujnlpaznqqsbzou.jpg"
               alt=""
             />
           </div>
         </div>
       </div>
       <div className="div-content-undo">
-        <Content header={header} title={title} para={para} />
-      </div>
+        <div className="div-content-top">
+          Vào lúc
+        </div>
+        <div className="div-content-middle">
+        <div className="first">
+          <span> 16 giờ 30 </span>
+          <hr />
+          <span> Thứ bảy</span>
+        </div>
+        <div className="second"> 08 </div>
+        <div className="first">
+          <span> Tháng 7  </span>
+          <hr style={{color: '#8e6929'}} />
+          <span> Năm 2023</span>
+        </div>
+        </div>
+        <div className="div-content-bottom">
+          Nhằm ngày 21 tháng 05 năm Qúy Mão
+        </div>
+        </div>
     </div>
   );
 }

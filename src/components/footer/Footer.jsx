@@ -4,18 +4,12 @@ import FacebookSharpIcon from "@mui/icons-material/FacebookSharp";
 import CallSharpIcon from "@mui/icons-material/CallSharp";
 import Woman2SharpIcon from "@mui/icons-material/Woman2Sharp";
 import Man2SharpIcon from "@mui/icons-material/Man2Sharp";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const images = [
-    "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-    "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-    "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "https://res.cloudinary.com/johnle/image/upload/v1687240610/Wedding%20Lap/mgva0d6fgiqun2i3o0kv.jpg",
+    
   ];
 
   const ContentAbout = ({ header, content }) => {
@@ -31,12 +25,16 @@ const Footer = () => {
     <div className="container-footer">
       <div className="columns-footer">
         <div className="title">Weddings</div>
-        <p className="description">Công Thành và Như Huỳnh</p>
+        <p className="description">Hoàng Anh & Tuyết Lập</p>
         <div className="contents-footer">
           <div className="icon">
             <FacebookSharpIcon />
           </div>
-          <div className="content-footer"> Link Facebook</div>
+          <div className="content-footer">
+            <Link to={`https://www.facebook.com/lap.poon.5`} className="link-face">
+              Tuyết Lập
+            </Link>
+          </div>
         </div>
         <div className="contents-footer">
           <div className="icon">
@@ -48,7 +46,9 @@ const Footer = () => {
           <div className="icon">
             <Woman2SharpIcon />
           </div>
-          <div className="content-footer">Đia chỉ nhà gái</div>
+          <div className="content-footer">16, KP kiên tân, 
+            Kiên lương,
+            Kiên Giang</div>
         </div>
         <div className="contents-footer">
           <div className="icon">
@@ -58,15 +58,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="columns-footer">
-        <div className="header-footer">Về chúng tôi</div>
+        <div className="header-footer">Thời gian</div>
         <div className="div-content-about">
           <ContentAbout header={"Đám hỏi"} content={"14/09/2000"} />
         </div>
         <div className="div-content-about">
-          <ContentAbout header={"Đám cưới"} content={"14/09/2000"} />
+          <ContentAbout header={"Đám cưới"} content={"08/07/2000"} />
         </div>
         <div className="div-content-about">
-          <ContentAbout header={"Rước dâu"} content={"14/09/2000"} />
+          <ContentAbout header={"Rước dâu"} content={"09/07/2000"} />
         </div>
       </div>
       <div className="columns-footer grid-div">

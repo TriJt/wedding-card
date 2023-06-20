@@ -1,15 +1,15 @@
 import React from "react";
 import "./mainPicture.css";
 
-export default function MainPicture({ content }) {
+export default function MainPicture() {
   const images = [
-    "https://i.pinimg.com/564x/fc/ec/5c/fcec5c49931e77d8270246c4f2bb664b.jpg",
-    "https://i.pinimg.com/564x/fc/ec/5c/fcec5c49931e77d8270246c4f2bb664b.jpg",
-    "https://i.pinimg.com/564x/fc/ec/5c/fcec5c49931e77d8270246c4f2bb664b.jpg",
+    "https://res.cloudinary.com/johnle/image/upload/v1687243276/Wedding%20Lap/opraepph52ofqgzp8fo4.jpg",
+    "https://res.cloudinary.com/johnle/image/upload/v1687243280/Wedding%20Lap/v1ngz85mujddhx6juiee.jpg",
+    "https://res.cloudinary.com/johnle/image/upload/v1687243279/Wedding%20Lap/ahddzlrem80cd5drlku7.jpg",
   ];
 
   const background = [
-    "https://i.pinimg.com/564x/fc/ec/5c/fcec5c49931e77d8270246c4f2bb664b.jpg",
+    "https://res.cloudinary.com/johnle/image/upload/v1685947976/Wedding%20Lap/cmlfzaxmt0gdjzlejm5i.jpg",
   ];
 
   return (

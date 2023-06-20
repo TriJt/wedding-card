@@ -1,12 +1,12 @@
 :root {
   --font-header: "Parisienne", cursive;
-  --font-main: "Roboto", sans-serif;
-  --background-header: #f9f8f6;
+  --font-main: "Roboto Condensed", sans-serif;
+  --background-header: #ffffff;
   --background-main: #ffffff;
-  --background-image-after: #fff8d6;
+  --background-image-after: #e2c4a1;
   --color-sidebar: #e2c4a1;
-  --color-header: #9e8a72;
-  --color-sub: #ce8f6f;
+  --color-header: #a2782f;
+  --color-sub:#8e6929;
   --color-main: #818491;
   --size-header: 13px;
   --size-big-header: 55px;

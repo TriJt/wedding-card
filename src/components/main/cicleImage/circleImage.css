@@ -18,12 +18,14 @@
 }
 
 .container-circle h4 {
-  padding: 30px;
-  font-size: 20px;
-  font-weight: 400;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
   font-style: italic;
+  color: var(--color-main);
 }
 .container-circle p {
-  font-weight: 300;
+  font-weight:600;
   font-size: 20px;
+  text-transform: uppercase;
 }
